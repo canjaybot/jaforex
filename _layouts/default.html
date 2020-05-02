@@ -22,15 +22,6 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
         
-
-        
-        <ol>
-           <li> 1 </li>
-           <li> 2 </li>
-           <li> 3 </li>
-           <li> 4 </li>
-
-         </ol>
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
         <ul>
         {% if site.show_downloads %}
@@ -42,8 +33,15 @@
       </header>
       <section>
 
-      {{ content }}
+        <div>
+          <ol>
+             <li> 1 </li>
+             <li> 2 </li>
+             <li> 3 </li>
+             <li> 4 </li>
 
+           </ol>
+        </div>
       </section>
     </div>
     <footer>
